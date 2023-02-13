@@ -2,32 +2,28 @@
   "relayer": {},
   "chains": [
     {
-      "name": "evm",
+      "name": "chikochain",
       "type": "evm",
-      "id": 1,
-      "endpoint": "http://evm1:8545",
-      "from": "0xff93B45308FD417dF303D6515aB04D9e89a750Ca",
-      "bridge": "0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66",
-      "erc721Handler": "0x05C5AFACf64A6082D4933752FfB447AED63581b1",
-      "erc20Handler": "0xb83065680e6AEc805774d8545516dF4e936F0dC0",
-      "genericHandler": "0x7573B1c6de00a73e98CDac5Cd2c4a252BdC87600",
+      "id": 0,
+      "endpoint": "http://70.34.216.42:9933",
+      "from": "0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7",
+      "bridge": "0x4b552F62A4Db1f31C59c93E8Cb5A112a410598Ef",
+      "erc20Handler": "0x3C4BcD08649897975123Cd8E47b2B34fB6e06D57",
       "gasLimit": 9000000,
       "maxGasPrice": 20000000000,
       "blockConfirmations": 10
     },
     {
-      "name": "celo",
-      "type": "celo",
-      "id": 2,
-      "endpoint": "http://celo1:8546",
-      "from": "0xff93B45308FD417dF303D6515aB04D9e89a750Ca",
-      "bridge": "0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66",
-      "erc721Handler": "0x05C5AFACf64A6082D4933752FfB447AED63581b1",
-      "erc20Handler": "0xb83065680e6AEc805774d8545516dF4e936F0dC0",
-      "genericHandler": "0x7573B1c6de00a73e98CDac5Cd2c4a252BdC87600",
-      "gasLimit": 9000000,
-      "maxGasPrice": 20000000000,
-      "blockConfirmations": 10
+      "name": "polygon",
+      "type": "evm",
+      "id": 1,
+      "endpoint": "https://polygon-mainnet.g.alchemy.com/v2/Sziok2o64OsCpH9HP339wQdHe-akTGFi",
+      "from": "0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7",
+      "bridge": "0x006f485B4216759cfb8979DE2E4974f74c95585D",
+      "erc20Handler": "0xaFfCFf9AA352E8f3960e2B9538164053F8C9E264",
+      "gasLimit":8000000,
+      "maxGasPrice":20000000000,
+      "blockConfirmations":10
     }
   ]
 }
